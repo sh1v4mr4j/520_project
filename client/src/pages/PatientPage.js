@@ -1,12 +1,14 @@
-import React from 'react';
+import React from "react";
+import PatientForm from "../components/patientForm";
+import Heading from "../components/Heading";
 
-function PatientPage() {
+const PatientPage = () => {
   return (
-    <div>
-      <h1>Welcome to the Home Page</h1>
-      <p>This is the main page of your application.</p>
-    </div>
+    <>
+      <Heading heading="Patient Form" />
+      <PatientForm />
+    </>
   );
-}
+};
 
 export default PatientPage;
